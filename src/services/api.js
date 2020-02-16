@@ -10,7 +10,7 @@ const getToken = async () => {
  ** Emulador Android Studio: http://10.0.2.2:3333/api
  ** Simulador IOS:           http://localhost:3333/api
  */
-export const API_URL = 'http://localhost:3333/api';
+export const API_URL = 'http://10.0.2.2:3333/api';
 
 const api = axios.create({
   baseURL: API_URL,
